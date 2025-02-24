@@ -1,4 +1,4 @@
-# Learning_Burp_Suite_-Basics
+# Learning_Burp_Suite_Basics
 
 # 🔎 Part 1: Intercepting and Analyzing Traffic 
 ### Enable Interception
