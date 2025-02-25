@@ -1,4 +1,8 @@
 # Learning_Burp_Suite_Basics
+## Prerequisite
+```sh
+pip install Flask==2.1.3 Werkzeug==2.0.3
+```
 
 # 🔎 Part 1: Intercepting and Analyzing Traffic 
 ### Enable Interception
