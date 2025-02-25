@@ -4,6 +4,12 @@
 pip install Flask==2.1.3 Werkzeug==2.0.3
 ```
 
+If you are getting errors try the following command:
+```sh
+pip install Flask==2.1.3 Werkzeug==2.0.3 --force-reinstall
+```
+
+
 # 🔎 Part 1: Intercepting and Analyzing Traffic 
 ### Enable Interception
 ```
