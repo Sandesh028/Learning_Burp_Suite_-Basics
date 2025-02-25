@@ -15,6 +15,18 @@ sudo apt remove --purge python3-flask -y
 sudo apt remove --purge python3-werkzeug -y
 pip install Flask==2.1.3 Werkzeug==2.0.3
 ```
+### Windows Error for port:
+```sh
+netstat -ano | findstr :8080
+```
+See the PID for the process and run the follow command:
+```sh
+taskkill /PID 1234 /F
+```
+
+
+
+
 # 🔎 Part 1: Intercepting and Analyzing Traffic 
 ### Enable Interception
 ```
