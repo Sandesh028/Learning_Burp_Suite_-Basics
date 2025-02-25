@@ -9,7 +9,12 @@ If you are getting errors try the following command:
 pip install Flask==2.1.3 Werkzeug==2.0.3 --force-reinstall
 ```
 
-
+If you are still getting errors and not able to install follow the commands:
+```sh
+sudo apt remove --purge python3-flask -y
+sudo apt remove --purge python3-werkzeug -y
+pip install Flask==2.1.3 Werkzeug==2.0.3
+```
 # 🔎 Part 1: Intercepting and Analyzing Traffic 
 ### Enable Interception
 ```
