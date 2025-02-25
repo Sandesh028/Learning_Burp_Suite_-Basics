@@ -20,7 +20,7 @@ pip install Flask==2.1.3 Werkzeug==2.0.3
 ```
 Open Burp Suite → Proxy tab → Intercept is ON.
 Visit http://127.0.0.1:8080/ in a browser (Flask demo site).
-Burp will capture the request; ask students to Forward it.
+Burp will capture the request; ask to Forward it.
 ```
 ```Discussion Question: 
 What do you see in the intercepted request?
